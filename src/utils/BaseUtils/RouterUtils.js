@@ -4,21 +4,9 @@ import router from "../../router/router";
 class RouterUtils {
   static routes = {
     auth: {
-      LOGIN: "login",
-      ADMIN_LOGIN: "admin-login",
-      REGISTER: "register",
-      FORGOT_PASSWORD: "resetprofile"
+      LOGIN: "login"
     },
-    rewards: {},
-    reports: {},
-
-    DASHBOARD: "dashboard",
-    company: {
-      ALL_COMPANIES: "all-companies"
-    },
-    employee: {
-      ADD_EMPLOYEE: "employee"
-    }
+    DASHBOARD: "dashboard"
   };
   static changeBaseRouteTo(targetRoute) {
     StoreUtils.dispatch(StoreUtils.actions.router.setActiveRoute, targetRoute);

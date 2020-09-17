@@ -1,11 +1,11 @@
 <template>
   <div class="jumbotron">
-    <p></p>
+    <CreateExpenseForm />
   </div>
 </template>
 
 <script>
-import CreateExpenseForm from "../../components/Forms/auth/CreateExpenseForm";
+import CreateExpenseForm from "../../components/forms/expense/CreateExpenseForm";
 export default {
   components: { CreateExpenseForm }
 };

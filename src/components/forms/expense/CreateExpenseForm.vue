@@ -19,7 +19,6 @@
         placeholder="boluokunaiya@gmail.com"
       />
       <FormulateInput
-        v-model="value"
         :options="{
           first: 'Food',
           second: 'Internet',

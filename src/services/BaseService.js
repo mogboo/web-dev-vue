@@ -3,7 +3,6 @@ import { baseUrlCors } from "../app.config";
 import LoaderUtils from "../utils/BaseUtils/LoaderUtils";
 import NotificationUtils from "../utils/BaseUtils/NotificationUtils";
 import ErrorUtils from "../utils/BaseUtils/ErrorUtils";
-import StoreUtils from "../utils/BaseUtils/StoreUtils";
 
 class BaseService {
   apiClient = Axios.create({

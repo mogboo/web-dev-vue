@@ -39,6 +39,9 @@ class StoreUtils {
     auth: {},
     user: {
       GET_USER_EMAIL: "userAccount/getUserEmail"
+    },
+    form: {
+      GET_FORM_BODY: "form/getFormBody"
     }
   };
 
